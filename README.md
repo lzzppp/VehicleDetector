@@ -9,9 +9,9 @@ VehicleDataset: 链接: https://pan.baidu.com/s/1Zns9jL58hd16A2VMiSA0KA 提取�
 ## Pipline
 ### Finetune from Just Vehicle Dataset from Coco weight
 
-'''
+"""
   python train.py --data VehicleFamily.yaml --epochs 300 --weights yolovx.pt --cfg yolov5x.yaml  --batch-size 32
-'''
+"""
 
 ### Finetune2 from custom dataset
 
